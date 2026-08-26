@@ -30,10 +30,10 @@ const CONFIG = {
         "Ahsan Nafis Syazani ",
         "Azzam Al Khawarizmi Abdillah",
         "Muhammad Yusuf Mubarok",
-        "Muhammad Banna Haniyya",
-        "Ahmad Fikra Mustofa",
-        'Hashif",
-        "Aimar"
+        "Ibrahim Banna Haniyya",
+        "Ahmad Fikra Musthafa al harits",
+        "Muhammad Arfan Hashif",
+        "Aimar Adhyastha Pratama"
     ]
 };
 
