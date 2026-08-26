@@ -113,7 +113,7 @@ function initApp() {
     // Render Members
     const membersContainer = document.getElementById('members-container');
     membersContainer.innerHTML = CONFIG.members.map(member => `
-        <span class="px-4 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold text-slate-300">
+        <span class="px-4 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold text-slate-200">
             👤 ${member}
         </span>
     `).join('');
