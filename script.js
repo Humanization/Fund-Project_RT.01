@@ -49,7 +49,7 @@ const PRODUCTS = [
         category: "snack",
         price: 15000, // Placeholder harga (bisa diubah nanti)
         badge: "🔥 Best Seller",
-        image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR29X8dH77bXUmP1KgSi2hAPTzu-OSmLSsIu_imwbVXmg&s=10",
         description: "Siomay gurih dan lezat dipadu bumbu kacang spesial."
     },
     {
@@ -58,26 +58,26 @@ const PRODUCTS = [
         category: "snack",
         price: 10000, // Placeholder harga (bisa diubah nanti)
         badge: "✨ Manis & Segar",
-        image: "https://images.unsplash.com/photo-1579372786545-d24232daf58c?auto=format&fit=crop&w=600&q=80",
+        image: "https://i.pinimg.com/736x/6f/eb/94/6feb943073ae2d289267c97daa907712.jpg",
         description: "Puding lembut dengan siraman vla vanilla yang harum manis."
     },
     {
         id: "p3",
-        name: "Cemilan Ringan",
+        name: "Seblak kering",
         category: "snack",
         price: 5000, // Placeholder harga (bisa diubah nanti)
         badge: "🍿 Renyah Gurih",
-        image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80",
-        description: "Aneka cemilan renyah serba gurih cocok untuk teman ngemil. (Kerupuk, Basreng, dll.)"
+        image: "https://i.pinimg.com/1200x/8b/a7/53/8ba75310fcb06456bbbdcbf53303255e.jpg",
+        description: "Cemilan pedas yang akan membuat kalian bilang 'WOW!'"
     },
     {
         id: "p4",
         name: "Donut",
         category: "snack",
-        price: 1500000, // Placeholder harga (bisa diubah nanti)
-        badge: "🔥 Kayak gitu dah pokoknya 🔥",
+        price: 4000, // Placeholder harga (bisa diubah nanti)
+        badge: "😋 Lezat dan bervariasi!",
         image: "https://image.idntimes.com/post/20250723/img_3397_455c9ac4-c833-4a4f-ad57-daced1a2b5eb.jpeg?tr=w-1200,f-webp,q-75&width=1200&format=webp&quality=75",
-        description: "Donat. (Pure aura)"
+        description: "Donat lezat dengan beraneka ragam rasa yang bisa anda pilih!"
     }
 ];
 
