@@ -69,6 +69,15 @@ const PRODUCTS = [
         badge: "🍿 Renyah Gurih",
         image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=600&q=80",
         description: "Aneka cemilan renyah serba gurih cocok untuk teman ngemil. (Kerupuk, Basreng, dll.)"
+    },
+    {
+        id: "p4",
+        name: "Donut",
+        category: "snack",
+        price: 1500000, // Placeholder harga (bisa diubah nanti)
+        badge: "🔥 Kayak gitu dah pokoknya 🔥",
+        image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=600&q=80",
+        description: "Donat. (Pure aura)"
     }
 ];
 
