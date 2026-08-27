@@ -102,7 +102,7 @@ function initApp() {
 
     // Render Progress Bar & Amounts
     const targetFormatted = formatRupiah(2500000);
-    const currentFormatted = formatRupiah(0);
+    const currentFormatted = formatRupiah(50000);
     const percentage = Math.min(100, Math.round((CONFIG.currentAmount / CONFIG.targetAmount) * 100));
 
     document.getElementById('target-amount').innerText = targetFormatted;
