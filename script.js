@@ -101,8 +101,8 @@ function initApp() {
     if(document.getElementById('wa-label-2')) document.getElementById('wa-label-2').innerText = CONFIG.whatsapp2.name;
 
     // Render Progress Bar & Amounts
-    const targetFormatted = formatRupiah(CONFIG.targetAmount);
-    const currentFormatted = formatRupiah(CONFIG.currentAmount);
+    const targetFormatted = formatRupiah(2500000);
+    const currentFormatted = formatRupiah(0);
     const percentage = Math.min(100, Math.round((CONFIG.currentAmount / CONFIG.targetAmount) * 100));
 
     document.getElementById('target-amount').innerText = targetFormatted;
