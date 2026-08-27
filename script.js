@@ -20,7 +20,7 @@ const CONFIG = {
     projectName: "FUND PROJECT RT.01",
     projectDescription: "Dukung kelompok kami dengan membeli makanan & cemilan lezat yang kami sediakan!",
     targetAmount: 2500000, // Target dana Rp 2.500.000
-    currentAmount: 0, // Dana terkumpul saat ini (Rp 0)
+    currentAmount: 200000, // Dana terkumpul saat ini (Rp 0)
     pickupLocation: "[LOKASI_COD_STAND]",
     members: [
         "Muhammad Roffiq Musaffa",
@@ -101,8 +101,8 @@ function initApp() {
     if(document.getElementById('wa-label-2')) document.getElementById('wa-label-2').innerText = CONFIG.whatsapp2.name;
 
     // Render Progress Bar & Amounts
-    const targetFormatted = formatRupiah(2500000);
-    const currentFormatted = formatRupiah(50000);
+    const targetFormatted = formatRupiah('targetAmount');
+    const currentFormatted = formatRupiah('currentAmount');
     const percentage = Math.min(100, Math.round((CONFIG.currentAmount / CONFIG.targetAmount) * 100));
 
     document.getElementById('target-amount').innerText = targetFormatted;
