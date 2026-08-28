@@ -72,12 +72,12 @@ const PRODUCTS = [
     },
     {
         id: "p4",
-        name: "Donut",
+        name: "Fluffy Donut",
         category: "snack",
         price: 4000, // Placeholder harga (bisa diubah nanti)
         badge: "😋 Lezat dan bervariasi!",
         image: "https://image.idntimes.com/post/20250723/img_3397_455c9ac4-c833-4a4f-ad57-daced1a2b5eb.jpeg?tr=w-1200,f-webp,q-75&width=1200&format=webp&quality=75",
-        description: "Donat lezat dengan beraneka ragam rasa yang bisa anda pilih! (Kalau mau request bilang ke admin ya! 😉)"
+        description: "Donat yang lezat dan sangat lembut dengan beraneka ragam rasa yang bisa anda pilih! (Kalau ingin menu, tanya ke admin nya yak!😉)"
     }
 ];
 
