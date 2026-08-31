@@ -20,7 +20,7 @@ const CONFIG = {
     projectName: "FUND PROJECT RT.01",
     projectDescription: "Dukung kelompok kami dengan membeli makanan & cemilan lezat yang kami sediakan!",
     targetAmount: 2500000, // Target dana Rp 2.500.000
-    currentAmount: 897000, // Dana terkumpul saat ini (Rp 0)
+    currentAmount: 900000, // Dana terkumpul saat ini (Rp 0)
     pickupLocation: "[LOKASI_COD_STAND]",
     members: [
         "Muhammad Roffiq Musaffa",
